@@ -92,7 +92,6 @@ function MainHeader({ links }: HeaderSimpleProps) {
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
-        <ColourSchemeToggle />
         <Burger
           opened={opened}
           onClick={() => toggleOpened()}
